@@ -15,6 +15,8 @@ class DatePickerAndroid{
     }
     return datepicker.open(options);
   }
+  static get dateSetAction() { return 'dateSetAction'; }
+  static get dismissedAction() { return 'dismissedAction'; }
 }
 
 module.exports = { DatePickerAndroid };

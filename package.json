@@ -1,0 +1,15 @@
+{
+  "name": "rn-datepicker-nougat-spinner-fix",
+  "version": "0.1.0",
+  "description": "Fix spinner bug in DatePicker(Android7.0) for react native",
+  "main": "index.js",
+  "repository": "",
+  "keywords": [
+    "android",
+    "nougat",
+    "spinner",
+    "react-native"
+  ],
+  "author": "yutaro-mt <ytrdev@gmail.com>",
+  "license": "MIT"
+}

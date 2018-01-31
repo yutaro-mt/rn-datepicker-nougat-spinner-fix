@@ -1,5 +1,4 @@
 import {NativeModules} from 'react-native';
-
 const datepicker = NativeModules.DatePickerAndroidNougatFix
 
 class DatePickerAndroid{
@@ -7,8 +6,9 @@ class DatePickerAndroid{
     if(options){
       const keys = ['date','minDate','maxDate'];
       keys.forEach((current)=>{
-        if(( typeof options[current] === 'object' )&&
-           ( options[current] instanceof Date)){
+        if(
+           (options[current] instanceof Date)&&
+           (typeof options[current].getTime === 'function')){
           options[current] = options[current].getTime();
         }
       });
@@ -17,4 +17,4 @@ class DatePickerAndroid{
   }
 }
 
-module.exports = DatePickerAndroid;
+module.exports = { DatePickerAndroid };

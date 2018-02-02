@@ -1,4 +1,4 @@
-package com.java.reactnative.datepicker.fix;
+package com.yutaro_mt.reactnative.datepicker.fix;
 
 import android.app.DatePickerDialog;
 import android.app.Dialog;

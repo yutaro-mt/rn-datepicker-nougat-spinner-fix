@@ -1,4 +1,4 @@
-package com.java.reactnative.datepicker.fix;
+package com.yutaro_mt.reactnative.datepicker.fix;
 
 import com.facebook.react.ReactPackage;
 import com.facebook.react.bridge.NativeModule;

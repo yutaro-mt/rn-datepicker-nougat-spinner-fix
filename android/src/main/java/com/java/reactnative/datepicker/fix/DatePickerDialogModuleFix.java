@@ -1,4 +1,4 @@
-package com.java.reactnative.datepicker.fix;
+package com.yutaro_mt.reactnative.datepicker.fix;
 
 import android.app.Activity;
 import android.app.DatePickerDialog;
@@ -38,6 +38,7 @@ public class DatePickerDialogModuleFix extends DatePickerDialogModule {
     if ((activity == null) ||
         (activity instanceof android.support.v4.app.FragmentActivity)){
       super.open(options,promise);
+      return;
     }
     //remove existing fragment
     FragmentManager fragmentManager = activity.getFragmentManager();

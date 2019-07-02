@@ -1,0 +1,16 @@
+.gradle
+.idea
+/android/android.iml
+/android/local.properties
+.project
+android.iml
+gradlew
+gradlew.bat
+local.properties
+.settings
+.classpath
+build
+libs
+gradle
+
+demo/
